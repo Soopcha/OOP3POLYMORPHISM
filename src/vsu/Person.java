@@ -14,4 +14,7 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+    public void prettyPrint(){
+        System.out.println("Person name is "+ name);
+    }
 }
